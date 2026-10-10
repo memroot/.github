@@ -1,7 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/memroot/.github/main/assets/mark-dark.svg">
-  <img src="https://raw.githubusercontent.com/memroot/.github/main/assets/mark-light.svg" alt="Memroot" width="64" height="64">
-</picture>
+<img src="https://raw.githubusercontent.com/memroot/.github/main/assets/favicon-light.svg" alt="Memroot" width="64" height="64">
 
 # Memroot
 
