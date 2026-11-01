@@ -16,7 +16,7 @@ npx memroot@latest setup
 
 Setup detects your agent CLIs and guides you through installation and browser authorization. Requires Node.js 22 or later on macOS or Linux. See the [plugin README](https://github.com/memroot/plugins#readme) for native installation, updates, hook trust and troubleshooting.
 
-Memroot is in alpha. The agent saves when you ask or accept its offer. Session capture is a separate opt-in; installing or updating a plugin does not enable it. See the [npm README](https://www.npmjs.com/package/memroot) for capture disclosures, limits and current verification status.
+Agents save lessons to Memroot automatically (shown as "Agent save"); memories are archived, not hard-deleted. Session capture is on by default after a disclosure at setup or update and can be turned off with `memroot capture off`; it redacts locally and sends only typed candidates, never raw transcripts. See the [npm README](https://www.npmjs.com/package/memroot) for capture disclosures and limits.
 
 ## What is here
 
